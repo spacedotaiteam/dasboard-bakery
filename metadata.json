@@ -1,0 +1,5 @@
+{
+  "name": "Supabase Chat Dashboard",
+  "description": "An admin dashboard to view and manage chat sessions from a Supabase database in a real-time, WhatsApp-style interface.",
+  "requestFramePermissions": []
+}
