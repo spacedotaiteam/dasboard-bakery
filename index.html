@@ -35,7 +35,7 @@
   </head>
   <body class="bg-slate-100 font-sans">
     <div id="root"></div>
-    <!-- Changed type to "text/babel" and added data-type="module" to enable Babel transpilation -->
-    <script type="text/babel" data-type="module" src="/index.tsx"></script>
+    <!-- Changed type to "text/babel" and path to relative to fix 404 error on deploy -->
+    <script type="text/babel" data-type="module" src="./index.tsx"></script>
   </body>
 </html>
